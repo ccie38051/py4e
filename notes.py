@@ -99,7 +99,17 @@ operators - () + - / * **
 
 "type" asks variable types
 
+# Comments are ignored by python #
 
+# Get the name of the file and open it
+name = input('Enter file:')
+handle = open(name, 'r')
+
+CHAPTER 3 - CONDITIONAL EXECUTION
+
+if statement = check something in the code 
+
+git changes - enter message in box before commit
 
 
 
