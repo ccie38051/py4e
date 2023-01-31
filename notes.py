@@ -65,3 +65,41 @@ CI/CD - VSC > JENKINS > GIT > EXTERNAL REPO - CONTINUIUS INTERGRATION AND DEVELO
 PROGRESS 01282023 - VARIABLES, EXPRESSIONS AND STATEMENTS 
 
 45:00 
+
+git test Windows
+
+python - make sure interpreter is working - run python file from directory
+
+reserved words= python syntax words vocabulary (class )
+
+Variables - whatever word we use 
+
+interractive python - use statements for testin
+script - write the program
+
+sequence of steps - type the steps and python runs iter
+conditional steps - more intelligent sequence of steps using (if) statements
+repeated steps - steps over and over again (loops)
+
+constants - fixed values number,letters that don't change
+
+keep variables simple and meaning
+
+variable - word we choose 
+operator - = 
+assignement - value for variable
+
+x = 3.9 
+
+CHAPTER 2 
+
+expressions - 
+
+operators - () + - / * **
+
+"type" asks variable types
+
+
+
+
+
