@@ -111,5 +111,9 @@ if statement = check something in the code
 
 git changes - enter message in box before commit
 
+stage > commit > sync 
+
+
+
 
 
