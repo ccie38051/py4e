@@ -113,6 +113,10 @@ git changes - enter message in box before commit
 
 stage > commit > sync 
 
+code blocks and indents key to paragraphed code. visualize flow of if then logic
+
+COMPLEX CONDITIONAL EXECUTIONS
+
 
 
 
