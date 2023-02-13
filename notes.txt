@@ -107,7 +107,11 @@ handle = open(name, 'r')
 
 CHAPTER 3 - CONDITIONAL EXECUTION
 
-if statement = check something in the code 
+paragraphs of code with the if statement. run the code and if we find something run that code
+if not move to the next lines of code
+
+if, then else conditions statement = check something in the code 
+
 
 git changes - enter message in box before commit
 
@@ -123,7 +127,37 @@ repo - github, bitbucket etc..
 git - git CLI, bamboo, bithub etc..
 
 
+CHAPTER 4 - FUNCTIONS 
 
+Store and reuse 
+
+def = store the defined function 
+
+def thing():
+print ('Hello') 
+print ('Fun') 
+
+invoke (call) the function to use: 
+
+print thing()
+
+def greet(lang):
+    if lang == 'es': 
+       return 'Hola'
+elif lang == 'fr'
+      return 'Bonjour'
+else:
+     return 'Hello'
+
+>>> print(greet('en'), 'Glenn')
+>>> Hello Glenn
+
+To function or not to function.....
+
+* used for long and complex forms of code where things are being used over nad over again
+
+
+CHAPTER 5: LOOPS AND ITERATIONS 
 
 
 
