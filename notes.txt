@@ -117,6 +117,14 @@ code blocks and indents key to paragraphed code. visualize flow of if then logic
 
 COMPLEX CONDITIONAL EXECUTIONS
 
+*clone git repo* pull, commit and push changes* 
+
+repo - github, bitbucket etc..
+git - git CLI, bamboo, bithub etc..
+
+
+
+
 
 
 
