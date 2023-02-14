@@ -1,6 +1,6 @@
 # Python code examples 
 
-# CHAPTER 1 - VARIABLES, EXPRESSIONS & STATEMENTS 
+# CHAPTER 1 & 2 - VARIABLES, EXPRESSIONS & STATEMENTS 
 
 # VARIABLES
 
@@ -73,7 +73,7 @@ We then have a loop statement that repeats a block of code three times, printing
 Finally, we have a function definition statement that defines a function called greet which takes a name as a parameter and prints a greeting message. We then have a function call statement that calls the greet function with the argument "John".
 
 
-# CHAPTER 2 - CONDITIONS STATEMENTS 
+# CHAPTER 3 - CONDITIONS STATEMENTS 
 
 x = 5
 
@@ -95,7 +95,7 @@ If x were negative, neither the first nor the second condition would be true, so
 Note that the elif block is optional and can be repeated as many times as needed to check additional conditions.
 
 
-# CHAPTER 3 - FUNCTIONS 
+# CHAPTER 4 - FUNCTIONS 
 
 
 # Define a function that takes two arguments and returns their sum
@@ -115,7 +115,7 @@ Finally, we print the value of result using the print() function, which outputs 
 Functions are a powerful tool in programming as they allow you to write reusable blocks of code that can be called multiple times with different arguments.
 
 
-# CHAPTER 4 - LOOPS AND ITERATION 
+# CHAPTER 5 - LOOPS AND ITERATION 
 
 # For loop to iterate over a range of numbers
 for i in range(5):
@@ -136,7 +136,7 @@ while i < 5:
 for i in range(3):
     for j in range(2):
         print(i, j) # Output: (0, 0), (0, 1), (1, 0), (1, 1), (2, 0), (2, 1)
-        
+
 
 In the first example, we use a for loop to iterate over a range of numbers (from 0 to 4) using the range() function.
 
@@ -147,4 +147,36 @@ In the third example, we use a while loop to repeat a block of code until the va
 In the fourth example, we use a nested loop (a loop inside another loop) to iterate over two ranges of numbers and print each pair of values.
 
 These are just a few examples of the many types of loops that can be used in Python. Loops are a powerful tool in programming as they allow you to repeat blocks of code multiple times with different values or conditions.
+
+
+# CHAPTER 6 - STRINGS 
+
+# Define a string variable
+my_string = "Hello, world!"
+
+# Print the string
+print(my_string)
+
+# Get the length of the string
+length = len(my_string)
+print("Length of string:", length)
+
+# Access individual characters of the string
+first_char = my_string[0]
+last_char = my_string[-1]
+print("First character:", first_char)
+print("Last character:", last_char)
+
+# Concatenate two strings
+name = "Alice"
+greeting = "Hello, " + name + "!"
+print(greeting)
+
+# Convert a string to uppercase or lowercase
+upper_case = my_string.upper()
+lower_case = my_string.lower()
+print("Uppercase string:", upper_case)
+print("Lowercase string:", lower_case)
+
+This code defines a string variable my_string, prints it to the console, gets the length of the string, accesses individual characters of the string using indexing, concatenates two strings using the + operator, and converts the string to uppercase and lowercase using the upper() and lower() methods, respectively.
 
