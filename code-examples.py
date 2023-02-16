@@ -180,3 +180,70 @@ print("Lowercase string:", lower_case)
 
 This code defines a string variable my_string, prints it to the console, gets the length of the string, accesses individual characters of the string using indexing, concatenates two strings using the + operator, and converts the string to uppercase and lowercase using the upper() and lower() methods, respectively.
 
+
+# CHAPTER 7 - READING FILES 
+
+
+READING DATA OUTSIDE THE IDE & InterruptedError
+
+Start reading data from files, int this example .txt file 
+
+open(filename,mode)
+
+# Open a file named "example.txt" in the current directory
+file = open("example.txt", "r")
+
+# Read the contents of the file
+contents = file.read()
+
+# Print the contents of the file
+print(contents)
+
+# Close the file
+file.close()
+
+In this example, we use the open() function to open the file "example.txt" in read mode ("r"). We then use the read() method to read the contents of the file into the contents variable. Finally, we print the contents of the file and close the file using the close() method.
+
+Note that it's important to always close a file after you've finished using it to free up system resources.
+
+
+# CHAPTER 8 - LISTS 
+
+Algorithms - a set of rules or steps used to solve a problem
+
+Data Structures - a particular way of organizing data in a computer 
+
+Lists - data structures 
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Print the list
+print(numbers)
+
+# Access an element in the list by its index
+print(numbers[2])
+
+# Add an element to the end of the list
+numbers.append(6)
+print(numbers)
+
+# Remove an element from the list
+numbers.remove(4)
+print(numbers)
+
+# Sort the list in ascending order
+numbers.sort()
+print(numbers)
+
+In this example, we create a list of numbers using square brackets and assign it to the variable numbers. We then print the entire list using the print() function.
+
+Next, we access an element in the list by its index (in this case, the third element with the value 3) using square brackets.
+
+We then use the append() method to add the value 6 to the end of the list, and the remove() method to remove the value 4 from the list.
+
+Finally, we use the sort() method to sort the list in ascending order.
+
+There are many other operations you can perform on lists in Python, such as slicing, iterating, and concatenating. Lists are a versatile data structure that can be used to store and manipulate collections of data.
+
+4:02
