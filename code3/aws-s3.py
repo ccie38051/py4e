@@ -8,5 +8,5 @@ for bucket in s3.buckets.all():
     print(bucket.name)  
 
 # Upload a new file
-data = open('test.jpg', 'rb')
-s3.Bucket('pranburicloud-test').put_object(Key='test.jpg', Body=data)
+data = open('notes.txt')
+s3.Bucket('pranburicloud-test').put_object(Key='notes.txt', Body=data)
