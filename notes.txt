@@ -192,3 +192,4 @@ while count < 5:
 # 3
 # 4
 
+sudo ./ubuntu-gdm-set-background --image /usr/share/backgrounds/sf.jpg
