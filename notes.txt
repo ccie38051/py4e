@@ -193,3 +193,103 @@ while count < 5:
 # 4
 
 sudo ./ubuntu-gdm-set-background --image /usr/share/backgrounds/sf.jpg
+
+
+CHAPTER 6 - strings
+
+my_string = "Hello, World!"
+
+In this example, my_string is a variable that holds a string value, which is the text "Hello, World!". The string is enclosed in double quotes, which tells Python that it's a string. You can use single quotes instead of double quotes to create a string as well. Here's an example using single quotes:
+
+my_other_string = 'Python is fun!'
+
+Both of these strings can be manipulated using Python's built-in string methods and operators. For example, you can concatenate strings using the + operator:
+
+combined_string = my_string + " " + my_other_string
+print(combined_string)  # Output: "Hello, World! Python is fun!"
+
+network_devices = "routers", "firewalls", "wlc's" 
+
+
+
+CHAPTER 7 - READING FILES 
+
+To read files in Python, you can use the built-in open() function. The open() function returns a file object, which can be used to read, write or modify the contents of a file. Here's an example of how to use open() to read a file:
+.txt .csv any data files etc..
+
+
+
+# Open a file for reading
+file = open('example.txt', 'r')
+
+# Read the contents of the file
+file_contents = file.read()
+
+# Close the file
+file.close()
+
+# Print the contents of the file
+print(file_contents)
+
+In this example, we're opening a file called example.txt in read mode ('r'). We then read the contents of the file into a variable called file_contents using the read() method of the file object. Finally, we close the file using the close() method.
+
+Note that it's good practice to always close files after you're done working with them, as this frees up system resources and ensures that any changes you've made to the file are saved.
+
+You can also use a with statement when opening a file, which automatically closes the file when you're done with it. Here's an example:
+
+# Open a file using a with statement
+with open('example.txt', 'r') as file:
+    # Read the contents of the file
+    file_contents = file.read()
+
+# The file is automatically closed when the with block is exited
+print(file_contents)
+
+
+
+CHAPTER 8 - lists (data strutures)
+
+In Python, a list is a data structure that holds an ordered collection of items. Lists are mutable, which means that you can add, remove, or modify elements in the list after it has been created.
+
+Here's an example of how to create a list in Python:
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Create a list of strings
+fruits = ['apple', 'banana', 'orange', 'kiwi']
+
+In this example, we've created two lists: numbers and fruits. The numbers list contains integers, while the fruits list contains strings.
+
+You can access individual elements of a list using their index. In Python, list indices start at 0. Here's an example:
+
+# Access the first element of the numbers list
+first_number = numbers[0]
+
+# Access the third element of the fruits list
+third_fruit = fruits[2]
+
+In this example, we're accessing the first element of the numbers list (which has an index of 0) and the third element of the fruits list (which has an index of 2).
+
+You can add elements to a list using the append() method. Here's an example:
+
+# Add a new element to the numbers list
+numbers.append(6)
+
+# Add a new element to the fruits list
+fruits.append('grape')
+
+In this example, we're using the append() method to add a new element to each list.
+
+You can remove elements from a list using the remove() method. Here's an example:
+
+# Remove the second element from the numbers list
+numbers.remove(2)
+
+# Remove the first element from the fruits list
+del fruits[0]
+
+In this example, we're using the remove() method to remove the second element from the numbers list and the del statement to remove the first element from the fruits list.
+
+These are just a few of the basic operations you can perform with lists in Python. There are many more built-in methods and functions you can use to manipulate lists, depending on your needs.
+
