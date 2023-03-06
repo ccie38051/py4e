@@ -297,3 +297,32 @@ These are just a few of the basic operations you can perform with lists in Pytho
 
 splitting lists and breaking up data in list
 
+
+CHAPTER 9  - DICTIONARIES 
+
+Lists with a key value label 
+
+student = {"name": "John", "age": 20, "major": "Computer Science"}
+
+Example - Counting words in text file:
+
+lab - words.txt words.py - understand everything, counts words in file 
+
+* This example allows you to input whatever file you want to anazlyze the code *
+
+words.py   option to enter any txt file name you want 
+
+
+CHAPTER 10 - TUPLES 
+
+Similari to list use () not []
+
+'immutable' can modify a list, cannot modify tuple 
+
+In Python, a tuple is a collection of ordered and immutable elements, enclosed in parentheses ( ). Here's an example of how to create a tuple in 
+
+
+
+
+
+
