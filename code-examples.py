@@ -251,3 +251,86 @@ There are many other operations you can perform on lists in Python, such as slic
 
 splitting lists and breaking up data in list
 
+
+CHAPTER 9 - DICTIONARIES 
+
+# Create a dictionary
+student = {"name": "John", "age": 20, "major": "Computer Science"}
+
+# Access a value using its key
+print(student["name"])   # Output: John
+print(student["age"])    # Output: 20
+
+# Add a new key-value pair to the dictionary
+student["GPA"] = 3.8
+
+# Update the value of an existing key
+student["age"] = 21
+
+# Remove a key-value pair from the dictionary
+del student["major"]
+
+# Loop through the keys of the dictionary
+for key in student:
+    print(key)
+
+# Loop through the values of the dictionary
+for value in student.values():
+    print(value)
+
+# Loop through both the keys and values of the dictionary
+for key, value in student.items():
+    print(key, value)
+
+
+In this example, we create a dictionary called student that contains three key-value pairs: "name": "John", "age": 20, and "major": "Computer Science". We then demonstrate how to access, add, update, and remove key-value pairs from the dictionary, as well as how to loop through its keys, values, and items.
+
+
+
+### CHAPTER 10 - TUPLES 
+
+### In Python, a tuple is a collection of ordered and immutable elements, enclosed in parentheses ( ). Here's an example of how to create a tuple in
+
+# Similiar to list but immutable - can't modify 
+# better performance
+
+# Create a tuple of integers
+my_tuple = (1, 2, 3, 4, 5)
+
+# Create a tuple of mixed data types
+another_tuple = ("apple", 5.5, True)
+
+# Create an empty tuple
+empty_tuple = ()
+
+# Accessing elements in a tuple
+print(my_tuple[0])  # Output: 1
+print(another_tuple[1])  # Output: 5.5
+
+# Slicing a tuple
+print(my_tuple[1:4])  # Output: (2, 3, 4)
+
+# Unpacking a tuple
+a, b, c = my_tuple
+print(a)  # Output: 1
+print(b)  # Output: 2
+print(c)  # Output: 3
+
+# Looping through a tuple
+for item in my_tuple:
+    print(item)
+
+# Checking if an element exists in a tuple
+if 4 in my_tuple:
+    print("4 is in the tuple")
+else:
+    print("4 is not in the tuple")
+
+# Concatenating tuples
+new_tuple = my_tuple + another_tuple
+print(new_tuple)  # Output: (1, 2, 3, 4, 5, "apple", 5.5, True)
+
+# Tuple methods
+print(len(my_tuple))  # Output: 5
+print(my_tuple.count(2))  # Output: 1
+print(my_tuple.index(3))  # Output: 2
