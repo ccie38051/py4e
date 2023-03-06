@@ -319,7 +319,63 @@ Similari to list use () not []
 
 'immutable' can modify a list, cannot modify tuple 
 
+holds a value and a key 'car':honda 'color':red etc...
+
 In Python, a tuple is a collection of ordered and immutable elements, enclosed in parentheses ( ). Here's an example of how to create a tuple in 
+
+*REVIEW BOOK QUESTIONS & LABS**
+
+## CHAPTER 11 - REGULAR EXPRESSIONS 
+
+Just like everything in computers (bgp,cucm,python,linux grep,cisco) regex match something in the strings
+
+*, all etc.. 
+
+smart searching "regex" wildcards & patterns *,
+
+pain but fun to use 
+
+a language in themselves , from the 60's 
+
+quick guide 
+
+https://www.regular-expressions.info/quickstart.html
+
+import libary for expressions
+
+import re 
+
+
+
+#### CHAPTER 12 - NETWORK PROGRAMS 
+
+Talking to network resources with Python 
+
+Stacks - (TCP) transport connections example 
+
+TCP Connections / Sockets between devices and applications 
+
+host >> webserver as an example 
+
+import socket (libary to communicate with sockets on hosts)
+
+Application Protocol 
+http, 80, mail, www. etc..
+
+*Let's write a web browser!
+
+python script is a cli version of a web browser
+
+Connects to the server url and prints the text file 
+
+socket1.py 
+
+ASCII 
+
+UTF-8 best practice best character 
+
+6:54 - 03062023
+
 
 
 
