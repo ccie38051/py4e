@@ -246,4 +246,8 @@ Finally, we use the sort() method to sort the list in ascending order.
 
 There are many other operations you can perform on lists in Python, such as slicing, iterating, and concatenating. Lists are a versatile data structure that can be used to store and manipulate collections of data.
 
-4:02
+
+03062023 3:50 - LISTS CHAPTER 8 
+
+splitting lists and breaking up data in list
+

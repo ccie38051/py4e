@@ -293,3 +293,7 @@ In this example, we're using the remove() method to remove the second element fr
 
 These are just a few of the basic operations you can perform with lists in Python. There are many more built-in methods and functions you can use to manipulate lists, depending on your needs.
 
+03062023 3:50 - LISTS CHAPTER 8 
+
+splitting lists and breaking up data in list
+
