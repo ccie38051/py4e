@@ -370,11 +370,56 @@ Connects to the server url and prints the text file
 
 socket1.py 
 
+*url lib better*
+
 ASCII 
 
 UTF-8 best practice best character 
 
 6:54 - 03062023
+
+decoding bytes - encoding and decoding 
+
+make http easier with urllib - does all the socket stuff 
+
+urllib - does all the docket work 
+
+import urllib.request, urllib.parse, urllib.error
+
+python crawling website and can grab links or whatever you want 
+
+urllib1 - looks at words in .txt file
+urllib2 - looks at html coding 
+urlwords - counts words in .txt 
+
+Parsing HTML - WEB SCRAPING  - pull data from web sites and pull content 
+
+could block you if see scraping website 
+
+library beautiful soup - looks at website and cleans up broken links
+from bs4 import BeautifulSoup
+
+urlwords.py - scrape website 
+
+sudo pip3 install beautifulsoup4
+
+*** REVIEW NETWORKING SCRIPTS OF DEVICES ** PYTHON DBOMBEL ** ANSIBLE CHATGPT**
+*** INFOBLOX TRAINING***
+
+
+### CHAPTER 13 - USING WEB SERVICES 
+
+better formats - .xml .json - very common now 
+
+serialization - taking data from one format and translating to another format
+
+XML - marking up data
+
+7:30 - 03132023 
+
+
+
+
 
 
 
