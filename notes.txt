@@ -406,6 +406,16 @@ sudo pip3 install beautifulsoup4
 *** REVIEW NETWORKING SCRIPTS OF DEVICES ** PYTHON DBOMBEL ** ANSIBLE CHATGPT**
 *** INFOBLOX TRAINING***
 
+** USE LIBRARIES **
+
+BEAUTIFUL SOUP - WEB SCRAPING 
+*PANDAS* - DATA ANALYSIS
+PyPDF2 - PDF manipulation 
+pygame - games 
+network devices - paramiko, netmiko,
+django - web framework written in python 
+
+pip3 install *libaryname*
 
 ### CHAPTER 13 - USING WEB SERVICES 
 
